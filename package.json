@@ -9,11 +9,6 @@
         "test": "cd test && ava --verbose --timeout=30s --no-worker-threads",
         "eslint": "eslint setup/ src/ test/ --max-warnings=0"
     },
-    "husky": {
-        "hooks": {
-            "pre-commit": "pretty-quick --staged"
-        }
-    },
     "bin": {
         "mix": "./bin/cli.js",
         "laravel-mix": "./bin/cli.js"
@@ -115,14 +110,12 @@
         "core-js": "^3.19.0",
         "eol": "^0.9.1",
         "eslint": "^7.28.0",
-        "husky": "^4.3.0",
         "koa": "^2.13.4",
         "koa-static": "^5.0.0",
         "less": "^3.12.2 || ^4.1.2",
         "less-loader": "^9.1.0",
         "mock-require": "^3.0.3",
         "normalize.css": "^8.0.1",
-        "playwright": "^1.16.2",
         "postcss": "^8.3.11",
         "postcss-custom-properties": "^11.0.0",
         "prettier": "^2.4.1",
